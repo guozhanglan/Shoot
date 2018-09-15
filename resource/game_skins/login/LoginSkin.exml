@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165ccc9891b"/>
+
+
+
+
+
+	<e:Image source="common_res_json.logo" y="103.03" horizontalCenter="0"/>
+	<e:Button id="btnEnterToClassic" label="" top="960" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.jingdian_btn" source.down="common_res_json.jingdian_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnEnterToBoss" label="" top="1251" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.boss_btn" source.down="common_res_json.boss_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnRank" label="" horizontalCenter="-390.5" top="1613">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.paihang" source.down="common_res_json.paihang"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnShare" label="" x="330" y="1613">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.fenxiang" source.down="common_res_json.fenxiang"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnMore" label="" x="582" y="1613">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.gengduo" source.down="common_res_json.gengduo"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnMusic" label="" x="833" y="1613">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.yinyue_1" source.down="common_res_json.yinyue"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image source="common_res_json.DL_paihang" y="1791.58" x="107.29"/>
+	<e:Image source="common_res_json.DL_fenxiang" x="360" y="1791.58"/>
+	<e:Image source="common_res_json.DL_gengduo" x="612" y="1791.58"/>
+	<e:Image source="common_res_json.DL_yinyue" x="863" y="1791.58"/>
+
+
+	<e:BitmapLabel id="txtBaoTouKilled" text="666" font="login_fnt" height="82" width="450" anchorOffsetX="225" anchorOffsetY="0" textAlign="center" y="390" horizontalCenter="-1"/>
+	<e:BitmapLabel id="txtScore" text="666" font="login_fnt" height="82" width="450" anchorOffsetX="225" anchorOffsetY="0" y="579" textAlign="center" horizontalCenter="-1"/>
+	<e:Image source="common_res_json.DL_zuijia" y="694.03" x="459"/>
+	<e:Image source="common_res_json.DL_baotou" y="488.27" x="459"/>
+
+</e:Skin>

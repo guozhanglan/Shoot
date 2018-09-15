@@ -1,0 +1,255 @@
+{
+	"groups": [
+		{
+			"keys": "gameEui_json,cfg_Skins_json,cfg_map_json,common_res_json,rmb_fnt,login_fnt,login_png,time_fnt,time_png,cfg_Monster_json,boss_role_M1_png,boss_role_M2_png,boss_role_M3_png,boss_role_M4_png,boss_role_M5_png,boss_role_M6_png,boss_role_M7_png,boss_role_M8_png,boss_role_M9_png,boss_role_M10_png,boss_role_M11_png,boss_role_M12_png,boss_role_M13_png,boss_role_M14_png,boss_role_M15_png,boss_role_M16_png,boss_role_M17_png,boss_role_M18_png,boss_role_M19_png,boss_role_M20_png,boss_role_M21_png,boss_role_M22_png,boss_role_M23_png,role_M3_png,role_M4_png,role_M5_png,role_M6_png,role_M7_png,role_M8_png,weapon_M8_png,weapon_M3_png,weapon_M4_png,weapon_M5_png,weapon_M6_png,weapon_M7_png,role_run_png,particle_paoqilai_png,particle_paoqilaiw_json",
+			"name": "preload"
+		},
+		{
+			"keys": "common_res_json",
+			"name": "game"
+		}
+	],
+	"resources": [
+		{
+			"url": "res/common/common_res.json",
+			"type": "sheet",
+			"name": "common_res_json",
+			"subkeys": "BJ_kang,C_jiaxue,C_miaosha,DL_baotou,DL_fenxiang,DL_gengduo,DL_paihang,DL_yinyue,DL_zuijia,FH_dianjitiaoguo,FH_dik,FH_dik1,FH_manxue,HD_,HD_gongxihuode,HD_guang,HD_queding,baotou,benjudefen,boss_btn,chakan,chakan_1,chonglai,di_kuang,fenxiang,first,fuhuo,gengduo,head_1,head_2,heikuang,hp_1,hp_2,hp_3,hp_4,jinbi,jindutiao,jindutiao_1,jingdian_btn,logo,paihang,paihangbang,quit,second,shou,thirdly,tiao,tiao_1,yinyue,yinyue_1,zhuye,zi"
+		},
+		{
+			"url": "gameEui.json",
+			"type": "json",
+			"name": "gameEui_json"
+		},
+		{
+			"url": "config/cfg_Skins.json",
+			"type": "json",
+			"name": "cfg_Skins_json"
+		},
+		{
+			"url": "config/cfg_map.json",
+			"type": "json",
+			"name": "cfg_map_json"
+		},
+		{
+			"url": "res/font/rmb.fnt",
+			"type": "font",
+			"name": "rmb_fnt"
+		},
+		{
+			"url": "res/font/login.fnt",
+			"type": "font",
+			"name": "login_fnt"
+		},
+		{
+			"url": "res/font/login.png",
+			"type": "image",
+			"name": "login_png"
+		},
+		{
+			"url": "res/font/time.fnt",
+			"type": "font",
+			"name": "time_fnt"
+		},
+		{
+			"url": "res/font/time.png",
+			"type": "image",
+			"name": "time_png"
+		},
+		{
+			"url": "config/cfg_Monster.json",
+			"type": "json",
+			"name": "cfg_Monster_json"
+		},
+		{
+			"url": "res/sprite/boss_role_M1.png",
+			"type": "image",
+			"name": "boss_role_M1_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M2.png",
+			"type": "image",
+			"name": "boss_role_M2_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M3.png",
+			"type": "image",
+			"name": "boss_role_M3_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M4.png",
+			"type": "image",
+			"name": "boss_role_M4_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M5.png",
+			"type": "image",
+			"name": "boss_role_M5_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M6.png",
+			"type": "image",
+			"name": "boss_role_M6_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M7.png",
+			"type": "image",
+			"name": "boss_role_M7_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M8.png",
+			"type": "image",
+			"name": "boss_role_M8_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M9.png",
+			"type": "image",
+			"name": "boss_role_M9_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M10.png",
+			"type": "image",
+			"name": "boss_role_M10_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M11.png",
+			"type": "image",
+			"name": "boss_role_M11_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M12.png",
+			"type": "image",
+			"name": "boss_role_M12_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M13.png",
+			"type": "image",
+			"name": "boss_role_M13_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M14.png",
+			"type": "image",
+			"name": "boss_role_M14_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M15.png",
+			"type": "image",
+			"name": "boss_role_M15_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M16.png",
+			"type": "image",
+			"name": "boss_role_M16_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M17.png",
+			"type": "image",
+			"name": "boss_role_M17_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M18.png",
+			"type": "image",
+			"name": "boss_role_M18_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M19.png",
+			"type": "image",
+			"name": "boss_role_M19_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M20.png",
+			"type": "image",
+			"name": "boss_role_M20_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M21.png",
+			"type": "image",
+			"name": "boss_role_M21_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M22.png",
+			"type": "image",
+			"name": "boss_role_M22_png"
+		},
+		{
+			"url": "res/sprite/boss_role_M23.png",
+			"type": "image",
+			"name": "boss_role_M23_png"
+		},
+		{
+			"url": "res/sprite/role_M3.png",
+			"type": "image",
+			"name": "role_M3_png"
+		},
+		{
+			"url": "res/sprite/role_M4.png",
+			"type": "image",
+			"name": "role_M4_png"
+		},
+		{
+			"url": "res/sprite/role_M5.png",
+			"type": "image",
+			"name": "role_M5_png"
+		},
+		{
+			"url": "res/sprite/role_M6.png",
+			"type": "image",
+			"name": "role_M6_png"
+		},
+		{
+			"url": "res/sprite/role_M7.png",
+			"type": "image",
+			"name": "role_M7_png"
+		},
+		{
+			"url": "res/sprite/role_M8.png",
+			"type": "image",
+			"name": "role_M8_png"
+		},
+		{
+			"url": "res/sprite/weapon_M8.png",
+			"type": "image",
+			"name": "weapon_M8_png"
+		},
+		{
+			"url": "res/sprite/weapon_M3.png",
+			"type": "image",
+			"name": "weapon_M3_png"
+		},
+		{
+			"url": "res/sprite/weapon_M4.png",
+			"type": "image",
+			"name": "weapon_M4_png"
+		},
+		{
+			"url": "res/sprite/weapon_M5.png",
+			"type": "image",
+			"name": "weapon_M5_png"
+		},
+		{
+			"url": "res/sprite/weapon_M6.png",
+			"type": "image",
+			"name": "weapon_M6_png"
+		},
+		{
+			"url": "res/sprite/weapon_M7.png",
+			"type": "image",
+			"name": "weapon_M7_png"
+		},
+		{
+			"url": "res/particle/role_run.png",
+			"type": "image",
+			"name": "role_run_png"
+		},
+		{
+			"url": "res/particle/particle_paoqilai.png",
+			"type": "image",
+			"name": "particle_paoqilai_png"
+		},
+		{
+			"url": "res/particle/particle_paoqilaiw.json",
+			"type": "json",
+			"name": "particle_paoqilaiw_json"
+		}
+	]
+}

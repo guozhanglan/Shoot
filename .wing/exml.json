@@ -1,0 +1,35 @@
+{
+  "164e1a783e7": {
+    "guideLinesEnabled": false,
+    "bindingDataTestObj": []
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalBindingDataTestObj": []
+  },
+  "165ccc9891b": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 90.909
+      },
+      {
+        "type": "h",
+        "pos": 1413.333
+      },
+      {
+        "type": "h",
+        "pos": 169.697
+      },
+      {
+        "type": "h",
+        "pos": 78.788
+      },
+      {
+        "type": "h",
+        "pos": 1668
+      }
+    ],
+    "guideLinesEnabled": false
+  }
+}

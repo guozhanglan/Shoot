@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleScoreUI" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image source="common_res_json.di_kuang" fillMode="scale" scale9Grid="339,219,229,28" width="982" height="1478" y="118" horizontalCenter="0" locked="true"/>
+
+
+	<e:Image source="common_res_json.benjudefen" y="175.42" horizontalCenter="0.5"/>
+	<e:Image source="common_res_json.FH_dik1" y="333" scale9Grid="13,12,19,14" width="810" height="964" horizontalCenter="1"/>
+	<e:BitmapLabel id="txtBattleScores" width="309" height="192" y="396" font="login_fnt" text="6" x="475"/>
+	<e:Label id="txtGoodScroces" text="500" x="531.91" y="618" size="40" textColor="0xa72311" fontFamily="Microsoft YaHei" width="256" height="60"/>
+	<e:Label text="最佳得分：" x="355.39" y="618" size="36" fontFamily="Microsoft YaHei" textColor="0xd0723c" height="60"/>
+	<e:Image source="common_res_json.chakan" x="197" y="1005"/>
+	<e:Image source="common_res_json.chakan_1" x="611" y="1005"/>
+    	<e:Group id="main_Buff" width="357.88" height="236.06" anchorOffsetX="0" anchorOffsetY="0" y="1061" horizontalCenter="0">
+		<e:Image source="common_res_json.C_miaosha" x="0" y="61.7" width="132" height="132" scaleX="1" scaleY="1"/>
+
+		<e:Label text="秒杀" x="36" y="24.7" fontFamily="Microsoft YaHei" textColor="0xd0723c"/>
+
+		<e:Label id="txtOneKill" text="10" x="95" y="156" fontFamily="Microsoft YaHei" size="32" textColor="0xe56b00" width="46"/>
+				<e:Image source="common_res_json.C_jiaxue" x="226" y="61.7" width="132" height="132" scaleX="1" scaleY="1"/>
+				<e:Label text="加血" x="262" y="24.7" fontFamily="Microsoft YaHei" textColor="0xd0723c"/>
+				<e:Label id="txtAddBlood" text="10" x="321" y="156" fontFamily="Microsoft YaHei" size="32" textColor="0xE56B00" width="48"/>
+
+	</e:Group>
+    
+	<e:Button id="btnToMainUI" label="" x="218" y="1686">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.zhuye" source.down="common_res_json.zhuye" source.disabled="common_res_json.zhuye"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnToGoAgain" label="" x="657" y="1686">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.chonglai" source.down="common_res_json.chonglai" source.disabled="common_res_json.chonglai"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnToShare" label="" y="1348.55" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.HD_queding" source.down="common_res_json.HD_queding" source.disabled="common_res_json.HD_queding"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardUI" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image source="common_res_json.HD_guang" y="425" x="38"/>
+	<e:Image source="common_res_json.HD_gongxihuode" y="414" x="184"/>
+	<e:Button id="btnClose" label="" y="1266" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_res_json.HD_queding" source.down="common_res_json.HD_queding" source.disabled="common_res_json.HD_queding"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="common_res_json.HD_" x="194" y="585"/>
+	
+</e:Skin>

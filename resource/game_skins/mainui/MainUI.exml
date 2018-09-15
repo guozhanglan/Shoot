@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUI" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165ccc9891b"/>
+
+	
+
+	<e:Image source="common_res_json.heikuang" x="757.09" y="24.03" height="85" anchorOffsetX="0" width="246" visible="false"/>
+
+	<e:ProgressBar id="progressBarPass" width="451" height="98" y="160" enabled="true" minimum="0" horizontalCenter="0" skinName="skins.ProgressBarSkin_MainUI"/>
+
+
+
+
+	<e:Group id="main_Buff" width="317.88" height="236.06" x="700.12" y="1322" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="common_res_json.C_miaosha" x="0" y="61.7" width="132" height="132" scaleX="1" scaleY="1"/>
+		<e:Image source="common_res_json.C_jiaxue" x="162" y="61.7" width="132" height="132" scaleX="1" scaleY="1"/>
+		<e:Label text="秒杀" x="36" y="24.7" fontFamily="Microsoft YaHei" textColor="0xf4fdff"/>
+		<e:Label text="加血" x="198" y="24.7" fontFamily="Microsoft YaHei" textColor="0xF4FDFF"/>
+		<e:Label id="txtOneKill" text="10" x="95" y="156" fontFamily="Microsoft YaHei" size="32" textColor="0xe56b00" width="46"/>
+		<e:Label id="txtAddBlood" text="10" x="257" y="156" fontFamily="Microsoft YaHei" size="32" textColor="0xE56B00" width="48"/>
+	</e:Group>
+	<e:Group id="main_Rmb" width="363.64" height="203.03" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="common_res_json.heikuang" scaleX="1" scaleY="1" width="294" x="31" height="62" y="40"/>
+		<e:Image source="common_res_json.jinbi" x="30.71" y="38" height="66" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="txtRmb" width="202" height="60" x="100" y="46.06" scaleX="1" scaleY="1" font="rmb_fnt" text="6"/>
+	</e:Group>
+	<e:BitmapLabel id="txtScores" width="416" height="225" x="910" y="160" text="666" font="login_fnt" scaleX="0.3" scaleY="0.3"/>
+
+</e:Skin>
